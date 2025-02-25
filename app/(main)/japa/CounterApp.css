@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    gap: 20px; /* Adds space between elements to prevent collisions */
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 40px;
+    background-color: rgb(251, 249, 249)/* Adds space between heading and the counter box */
+}
+
+.counter-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    font-size: 28px;
+    margin-bottom: 20px; 
+    /* Adds space between counter and the button */
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+}
+
+.big-yellow-button {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(210, 206, 179);
+    border-radius: 50%;
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.big-yellow-button:hover {
+    background-color: rgb(210, 206, 179);
+}
+
+.reset-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 25%;
+    background-color: rgb(222, 222, 231)
+}
